@@ -2,20 +2,19 @@
 using namespace std;
 
 int main() {
-    // int n;
-    // int count=0;
-    // cout<<"enter number";
-    // cin>>n;
-    // while(n!=0)
-    // {
-    //     count=count+1;
-    //     n=n/10;
-    // }
-    // cout<<"your total is="<<count<<endl;
-    int n;
+    for (int i=0;; i++)
+    {
+    int n;   
     int count=0;
     cout<<"ENTER THE NUMBER";
-    
+    cin>>n;
 
+    while(n!=0){
+    count=count+1;
+    n=n/10;}
+    cout<<"total digits are"<<count<<endl;
+
+    
+    }
     return 0;
 }
